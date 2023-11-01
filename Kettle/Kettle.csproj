@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	<Description>An async-based Steam API client library for .NET and .NET Core</Description>
+    <AssemblyTitle>Kettle</AssemblyTitle>
+    <Version>1.0.0-dev7</Version>
+	<GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <Authors>Michael Peppler</Authors>
+    <TargetFramework>netstandard2.1</TargetFramework>
+	<AssemblyName>Kettle</AssemblyName>
+    <PackageId>Kettle</PackageId>
+    <Nullable>enable</Nullable>
+	<RepositoryUrl>https://github.com/peppage/kettle.net</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/peppage/kettle.net</PackageProjectUrl>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Text.Json" Version="8.0.4" />
+  </ItemGroup>
+
+</Project>
